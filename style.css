@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+:root{
+    --backgroud-1: #1c1c1c;
+    --backgroud-2: #d32e2e;
+    --backgroud-3: #23c654;
+
+    --font-color-1: #fff;
+    --font-color-2: #000;
+}
+body{
+    padding: 50px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: var(--backgroud-3);
+    color: var(--font-color-2);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/** Table */
+table{
+
+}
+
+table th, td {
+    background-color:  var(--font-color-1);
+    padding: 12px;
+}
+table th{
+    background-color:  var(--font-color-1);
+}
+table td {
+    color: gray;
+    font-size: .9em;
+
+}
